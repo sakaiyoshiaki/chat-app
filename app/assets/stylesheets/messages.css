@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-.header-name a{
+.header-name a {
   font-size: 16px;
   color: #FAFAFA;
   text-decoration: none;
@@ -28,7 +28,7 @@
 }
 
 .create-room a {
-border: 1px solid lightblue;
+  border: 1px solid lightblue;
   padding: 14px;
   color: deepskyblue;
   text-decoration: none;
@@ -62,17 +62,18 @@ border: 1px solid lightblue;
   justify-content: space-between;
 }
 
-.header-title{
+.header-title {
   font-size: 24px;
   color: #333;
   margin-top: 36px;
 }
+
 /* 36pxと10px分余計に下に下がっていた */
-.header-button{
+.header-button {
   margin-top: 40px;
 }
 
-.header-button a{
+.header-button a {
   border: 1px solid darkred;
   padding: 20px;
   color: darkred;
@@ -81,7 +82,7 @@ border: 1px solid lightblue;
 
 .messages {
   background-color: #FAFAFA;
-  height: calc(100vh - 100px - 136px);
+  height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
   overflow: scroll;
 }
@@ -90,7 +91,7 @@ border: 1px solid lightblue;
   margin: 10px 0;
 }
 
-.upper-message{
+.upper-message {
   display: flex;
 }
 
